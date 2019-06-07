@@ -1,7 +1,7 @@
 def oxford_comma(array)
     with_comma = ""
     array.each_with_index do |word, index|
-      if array.size = 1
+      if array.size == 1
         return "#{word}"
       elsif index == array.size - 1
         with_comma += " and #{word}"
